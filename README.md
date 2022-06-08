@@ -17,7 +17,7 @@ imprima o número de ocorrências do menor número.
 <br>d. LRRD
 <br>4-EAKA, EEJB, ____, AOND, NUQE.
 <br>a. ETRC
-<br><br>b. MJLC
+<br>b. MJLC
 <br>c. EIKC
 <br>d. TCRE
 
