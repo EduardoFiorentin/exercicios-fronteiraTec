@@ -1,0 +1,57 @@
+.body {
+    background-color: var(--color_body-background);
+}
+
+.body__presentation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background-image: linear-gradient(#401801a1, #401801), url("../img/presentation__background.jpg");
+    background-position: center;
+    background-size: cover;
+    box-shadow: 3px 2px 3px #401801;
+}
+.body__presentation-img {
+    height: 100%;
+    object-fit: contain;
+}
+.presentation__title {
+    font-size: 5rem;
+    font-family: var(--font_presentation);
+    color: var(--color_presentation-letter);
+    text-shadow: 1px 1px 1px var(--color_presentation-letter-shadow);
+}
+
+.menu__food {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.food__title {
+    font-family: var(--font_main-titles);
+    color: var(--color_main-titles);
+    font-size: 2.5rem;
+    margin-left: 30px;
+    margin-top: 30px;
+    text-shadow: 1px 1px 1px #40180185;
+}
+.food__title::before {
+    content: url("../icons/comp__logo.png");
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.food__title:not(:first-child) {
+    margin-top: 60px;
+}
+
+@media screen and (max-width: 440px) {
+    .presentation__title {
+        font-size: 3.5rem;
+    }
+    .body__presentation {
+        height: 30vh;
+    }
+}

@@ -1,0 +1,35 @@
+:root {
+    /* HEADER CONFIG */
+    --color_header-line: #401801;
+
+        /* MENU CONFIG */
+    --font_menu-links: 'Righteous', cursive;;
+    --color_menu-letter: #401801;
+    --color_menu-letter--selected: #b34a0e48;
+    --color_menu-background1: #f0b906;
+    --color_menu-background2: #c79b0a;
+
+    /* BODY CONFIG */
+        /* PRESENTATION */
+    --font_presentation: 'Righteous', cursive;
+    --color_body-background: #f3e30615;
+    --color_presentation-letter: #ff5e00;
+    --color_presentation-letter-shadow: #a03b00;
+
+        /* MAIN */
+    --font_main-titles: 'Righteous', cursive;
+    --color_main-titles: #A60311;
+
+    /* FOOTER CONFIG */
+    --font_footer: 'Righteous', cursive;
+    --color_footer-background: #401801;
+    --color_footer-letter: #f0b906;
+
+    /* CARDS CONFIG */
+    --font_card-title-button: 'Righteous', cursive;
+    --color_card-border: #401801;
+    --color_card-title: #ec4a0a;
+    --color_card-description: #401801;
+    --color_card-button-letter: #f0b906;
+    --color_card-button-background: #401801;
+}

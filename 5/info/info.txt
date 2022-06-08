@@ -1,0 +1,22 @@
+PADRÕES USADOS PELO MERCADO: 
+    cores quentes - idéia de segurança e conforto
+        marrom avermelhado, amarelo, amarelo queimado, laranja, vermelho
+    ---
+    tons fortes - ambiente dinâmico e marcante
+        combinado com: 
+    matizes suaves e delicadas: sensação de local familiar e singelo
+    ---
+    fontes arredondadas, suaves / sem serifa
+    ---
+    frases de efeito / frases marcantes
+    ---
+
+
+PALETA: 
+    MARROM: #401801
+    LARANJA: #F27405
+    AMARELO QUEIMADO: #F2B705
+    AMARELO: #F2E205
+    VARMELHO ESCURO: #A60311
+
+

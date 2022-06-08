@@ -1,0 +1,53 @@
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+    background-color: var(--color_footer-background);
+    box-shadow: -1px -1px 2px #401801;
+}
+
+.footer__social-media-link{
+    width: 30px;
+    filter: invert(1);
+}
+
+.footer__phone, .footer__open, .footer__address {
+    color: var(--color_footer-letter);
+    font-family: var(--font_footer);
+    transition: 300ms;
+}
+.footer__phone::before {
+    content: url("../icons/icons8-telefone-comercial-30.png");
+    filter: invert(1);
+    font-size: .1rem;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.open__hour:nth-child(2)::before {
+    content: url("../icons/icons8-relógio-24.png");
+    filter: invert(1);
+    font-size: .1rem;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.open__hour:not(:nth-child(2)) {
+    margin-left: 30px;
+}
+.footer__address::before {
+    content: url("../icons/icons8-marcador-24.png");
+    filter: invert(1);
+    font-size: .1rem;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+@media screen and (max-width: 920px) {
+    .footer {
+        flex-direction: column;
+    }
+    .footer__phone, .footer__open, .footer__address {
+        font-size: .7rem;
+        margin-bottom: 10px;
+    }
+}
